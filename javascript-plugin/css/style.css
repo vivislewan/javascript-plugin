@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+/* Contenu où sont affichés les coordonnées de la souris  */
+  
+.btn {
+  width: 25px;
+  height: 25px;
+  display: inline-block;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+  border: 1px solid white;
+}
+
+img{
+    height: 75px;
+    width: auto;
+}
+button {
+    height: 25px !important;
+    width: 25px;
+    border-radius: 50%;
+}
+ 
+textarea{
+    position: absolute;
+    opacity: 0.8;
+}
+
+.accordionItemHeading {
+    position: absolute;
+    height: 25px !important;
+    width: 25px;
+    border-radius: 50%;
+    height: auto; 
+    cursor: default;
+    opacity: 0.5; 
+    border-style: solid;
+    border-width: 1px; 
+    border-color: black;
+    z-index: 11111;
+} 
+ 
+.accordionItem {
+    display: block;
+    position:absolute;
+    width: 25%;
+    height: 50%;  
+    font-family: 'Open-sans', Arial, sans-serif; 
+} 
+
+.close .accordionItemContent{
+    display: none;
+}
+
+.open .accordionItemContent{ 
+    padding: 20px; 
+    background-color: red; 
+    width: 40%;
+    height: 40%;
+    display: block;   
+    position: absolute;
+}
+  
