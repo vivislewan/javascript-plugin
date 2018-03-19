@@ -21,7 +21,6 @@ Link of the script :
 
 ## The code which create the postit 
 
-      ```javascript
       
         postit = document.createElement("div");
         postit.className = 'accordionItem';
@@ -40,7 +39,6 @@ Link of the script :
         postit.appendChild(postitcontent);
         document.body.appendChild(postit);
         
-      ```
 ## If you want a background color for your postit Add this code :
  ```javascript
         var bgcolorList = new Array("#DFDFFF", "#FF8A2C", "#80FF80", "#FFE2A7", "#F62A42", "#8BD2DC", "#A68BD4", "#DDDD00");
